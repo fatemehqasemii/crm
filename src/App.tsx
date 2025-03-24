@@ -45,8 +45,8 @@ const App = () => {
               routerProvider={routerProvider}
               dataProvider={combinedDataProvider as any}
               liveProvider={!isRecipesResource ? liveProvider : undefined}
-              // authProvider={!isRecipesResource ? authProvider : undefined}
-              authProvider={authProvider}
+              authProvider={!isRecipesResource ? authProvider : undefined}
+              // authProvider={authProvider}
               notificationProvider={useNotificationProvider}
               resources={resources}
               options={{
