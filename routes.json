@@ -1,0 +1,3 @@
+{
+  "/recipes/:id": "/recipes?id=:id"
+}
